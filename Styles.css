@@ -14,6 +14,14 @@ html{
     height:15px;
 }
 
+.ph{
+    text-align: center;
+    color: #d51a5f;
+    font-weight: 800;
+    font-size: 2rem;
+    
+}
+
 .errors{
     display:none;
     background:red;
