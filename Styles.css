@@ -37,7 +37,7 @@ html{
 .scroll {
     width: 50px;
     height: 50px;
-    background-color:#2291e0;
+    background-color:#d81f72;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -114,9 +114,9 @@ html{
     color:#000;
     font-weight:600;
 }
-
+/* #d81f72 */
 #my-navigation ul .nav-item a:hover{
-    background-color: #2291e0;
+    background-color: #d81f72;
     color:#fff;
 }
  
@@ -143,11 +143,11 @@ html{
 
 #myul li a:hover{
     background-color:#fff;
-    color:#2291e0;
+    color:#d81f72;
 }
 
 #yourbutton{
-    background-color: #2291e0;
+    background-color: #d81f72;
     margin-right:2rem;
     border:none;
     padding:0.5rem 1rem;
@@ -156,7 +156,7 @@ html{
 
 
 #your-button{
-    background-color: #2291e0;
+    background-color: #d81f72;
     margin-right:2rem;
     border:none;
     padding:0.5rem 1rem;
@@ -209,7 +209,7 @@ html{
 
 .ban-bot h3{
     font-size: 2rem;
-    color:#2291e0;
+    color:#d81f72;
     font-weight:800;
 }
 
@@ -307,7 +307,7 @@ html{
 }
 
 .click{
-     background-color: #2291e0;
+     background-color: #d81f72;
      border:none;
      padding:0.5rem;
      color:#fff;
@@ -344,7 +344,7 @@ html{
 
 #submitbutton{
     margin-left:83%;
-    background-color: #2291e0;
+    background-color: #d81f72;
     border:none;
     padding:0.5rem 1rem;
     color:#fff;
@@ -369,7 +369,7 @@ html{
 }
 
 .second-part .title{
-    color: #2291e0;
+    color: #d81f72;
     font-size:2rem;
     margin-bottom:2.5rem;
     text-align:center;
@@ -489,7 +489,7 @@ html{
 }
 
 .second-part span{
-   color: #2291e0;
+   color: #d81f72;
    font-size:1.5rem;
    font-weight:700;
 }
@@ -593,7 +593,7 @@ html{
 }
 
 .second-part .book{
-    background-color: #2291e0;
+    background-color: #d81f72;
     border:none;
     padding:0.5rem 1rem;
     color:#fff;
@@ -660,7 +660,7 @@ html{
 
 .nepal .inner h4{
     font-size:1.3rem;
-    color:#2291e0;
+    color:#d81f72;
 } */
 
 /*third-part starts here*/
@@ -675,7 +675,7 @@ html{
 .third-part .title{
     font-size: 2.5rem;
     margin-top: 1.5rem;
-    color:#2291e0;
+    color:#d81f72;
     font-weight:800;
 }
 
@@ -706,7 +706,7 @@ html{
 }
 
 .third-part .more{
-    background-color: #2291e0;
+    background-color: #d81f72;
     border:none;
     padding:0.5rem 1rem;
     color:#fff;
@@ -849,7 +849,7 @@ input::placeholder{
 }
 
 #mybtn{
-    background-color:#2291e0;
+    background-color:#d81f72;
     padding:0.5rem 1rem;
     color:#fff;
     border-radius:0.5rem;
@@ -880,7 +880,7 @@ input::placeholder{
 }
 
 .team-sec .title span{
-    color:#2291e0;
+    color:#d81f72;
     font-size: 1.3rem;
     font-weight: 800;
 }
@@ -931,14 +931,14 @@ input::placeholder{
     background-color:#fff;
     margin-top:1rem;
     border-radius: 100%;
-    border:1px solid #2291e0;
-    color:#2291e0;
+    border:1px solid #d81f72;
+    color:#d81f72;
     font-weight: bold;
 }
 
 .team-sec .social i:hover{
     color:#fff;
-    background-color:#2291e0;
+    background-color:#d81f72;
 }
 
 
@@ -1121,7 +1121,7 @@ input::placeholder{
     color:#fff;
 }
 .bottom-para p a:hover{
-    color:#2291e0;
+    color:#d81f72;
 }
 
 @media only screen and (max-width:992px){
@@ -1151,7 +1151,7 @@ input::placeholder{
 
 
 #yourbutton{
-    background-color: #2291e0;
+    background-color: #d81f72;
     margin-right:0rem;
     margin-left:5rem;
     border:none;
@@ -1492,7 +1492,7 @@ input::placeholder{
 }
 
 #yourbutton{
-    background-color: #2291e0;
+    background-color: #d81f72;
     margin-left:0rem;
     border:none;
     padding:0.5rem 1rem;
@@ -1522,13 +1522,13 @@ input::placeholder{
 
 .domestic-pg-1 .title h3{
     font-size: 1.3rem;
-    color:#2291e0;
+    color:#d81f72;
     font-weight:800;
 }
 
 .domestic-pg-1 .title h2{
     font-weight:800;
-    color:#2291e0;
+    color:#d81f72;
     font-size:1.5rem;
     text-align:center;
 } 
@@ -1546,7 +1546,7 @@ input::placeholder{
 .third-part .title{
     font-size: 2rem;
     margin-top: 0rem;
-    color:#2291e0;
+    color:#d81f72;
 }
 
 .third-part .inner hr{
@@ -1556,7 +1556,7 @@ input::placeholder{
 .third-part .right h3{
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    color:#2291e0;
+    color:#d81f72;
 }
 
 .fourth-part{
@@ -1633,7 +1633,7 @@ input::placeholder{
 }
 
 #your-button{
-    background-color: #2291e0;
+    background-color: #d81f72;
     margin-right:2rem;
     border:none;
     padding:0.5rem 1rem;
@@ -1832,11 +1832,11 @@ input::placeholder{
     font-size:2rem;
     font-weight: 800;
     margin-bottom:1rem;
-    color:#2291e0;
+    color:#d81f72;
 }
 
 .about-pg-2 button{
-    background-color: #2291e0;
+    background-color: #d81f72;
     margin-right:2rem;
     border:none;
     padding:0.5rem 1rem;
@@ -1888,7 +1888,7 @@ input::placeholder{
     font-size:2rem;
     font-weight: 800;
     margin-bottom:1rem;
-    color:#2291e0;
+    color:#d81f72;
 }
 
 .about-pg-3 .left p{
@@ -1908,7 +1908,7 @@ input::placeholder{
 
 .about-pg-3 i{
     margin-right:1rem;
-    color:#2291e0;
+    color:#d81f72;
 }
 
 
@@ -2017,7 +2017,7 @@ input::placeholder{
     font-size:1.5rem;
     font-weight: 800;
     margin-bottom:1rem;
-    color:#2291e0;
+    color:#d81f72;
 }
 
 .about-pg-2 .left .para1{
@@ -2052,18 +2052,18 @@ input::placeholder{
     padding-left:2rem;
     padding-right:2rem;
     padding-bottom:4rem;
-    border:1px solid #2291e0;
+    border:1px solid #d81f72;
     border-radius:1rem;
 }
 
 .form-page .right{
     padding:2rem 2rem;
-    border:1px solid #2291e0;
+    border:1px solid #d81f72;
     border-radius:1rem;
 }
 
 .form-page .left .para1{
-    color:#2291e0;
+    color:#d81f72;
     font-weight: 700;
 }
 
@@ -2078,7 +2078,7 @@ input::placeholder{
 }
 
 .form-page .left .para2 span{
-    color:#2291e0;
+    color:#d81f72;
     font-size:1rem;
 }
 
@@ -2108,7 +2108,7 @@ input::placeholder{
 #send{
     width:15rem;
     height:5ch;
-    background-color: #2291e0;
+    background-color: #d81f72;
     color:#fff;
     border-radius:2rem;
     border:none;
@@ -2116,7 +2116,7 @@ input::placeholder{
 }
 
 #send:hover{
-    background-color:#2291e0;
+    background-color:#d81f72;
 }
 
 .form-page .right .para1{
@@ -2205,7 +2205,7 @@ input::placeholder{
 
 
 .book{
-    background-color:#2291e0;
+    background-color:#d81f72;
     margin-right:0rem;
     border:none;
     padding:0.5rem 1rem;
@@ -2220,8 +2220,8 @@ input::placeholder{
 
 .inquiry{
     padding:0.5rem 1rem;
-    border:1px solid #2291e0;
-    color:#2291e0;
+    border:1px solid #d81f72;
+    color:#d81f72;
     border-radius: 2rem;
     transition: 0.3s ease;
     margin-top:0rem;
@@ -2260,7 +2260,7 @@ input::placeholder{
     font-size: 2.5rem;
     margin-top:5rem;
     margin-bottom:2.5rem;
-    color:#2291e0;
+    color:#d81f72;
 }
 
 .package-pg-2 .item{
@@ -2295,7 +2295,7 @@ input::placeholder{
 
 .package-pg-2 .item .horizental .button{
     color:#fff;
-    background-color: #2291e0;
+    background-color: #d81f72;
     border:none ;
     font-size: 0.8rem;
     padding: 0 0.5rem;
@@ -2303,7 +2303,7 @@ input::placeholder{
 
 .package-pg-2 .view{
     border:none;
-    background-color: #2291e0;
+    background-color: #d81f72;
     color:#fff;
     padding:0.3rem 0.6rem;
     border-radius: 0.5rem;
@@ -2359,7 +2359,7 @@ input::placeholder{
 
 .package-pg-3 .item .horizental .button{
     color:#fff;
-    background-color: #2291e0;
+    background-color: #d81f72;
     border:none ;
     font-size: 0.8rem;
     padding: 0 0.5rem;
@@ -2367,7 +2367,7 @@ input::placeholder{
 
 .package-pg-3 .view{
     border:none;
-    background-color: #2291e0;
+    background-color: #d81f72;
     color:#fff;
     padding:0.3rem 0.6rem;
     border-radius: 0.5rem;
@@ -2423,7 +2423,7 @@ input::placeholder{
 
 .package-pg-4 .item .horizental .button{
     color:#fff;
-    background-color: #2291e0;
+    background-color: #d81f72;
     border:none ;
     font-size: 0.8rem;
     padding: 0 0.5rem;
@@ -2431,7 +2431,7 @@ input::placeholder{
 
 .package-pg-4 .view{
     border:none;
-    background-color: #2291e0;
+    background-color: #d81f72;
     color:#fff;
     padding:0.3rem 0.6rem;
     border-radius: 0.5rem;
@@ -2524,7 +2524,7 @@ input::placeholder{
     font-size: 2rem;
     margin-top:2.5rem;
     margin-bottom:2.5rem;
-    color:#2291e0;
+    color:#d81f72;
 }
 
     .package-pg-2 .item{
@@ -2637,10 +2637,10 @@ input::placeholder{
 
 .domestic-pg-1 .title h2{
     font-size: 1.5rem;
-    color:#2291e0;
+    color:#d81f72;
     margin-top:1rem;
     text-align:center;
-    color:#2291e0;
+    color:#d81f72;
 }
 
 
@@ -2688,7 +2688,7 @@ input::placeholder{
 
 .domestic-pg-1 .title h3{
     font-size: 1.5rem;
-    color:#2291e0;
+    color:#d81f72;
     text-align:center;
     font-weight:800;
 }
@@ -2724,8 +2724,8 @@ input::placeholder{
 
 .inquiry{
     padding:0.5rem 1rem;
-    border:1px solid #2291e0;
-    color:#2291e0;
+    border:1px solid #d81f72;
+    color:#d81f72;
     border-radius: 2rem;
     transition: 0.3s ease;
     margin-top:1rem;
@@ -2735,12 +2735,12 @@ input::placeholder{
 }
 
 .inquiry:hover{
-    background-color: #2291e0;
+    background-color: #d81f72;
     color:#fff;
 }
 
 .booking{
-    background-color:#2291e0;
+    background-color:#d81f72;
     margin-right:0rem;
     border:none;
     padding:0.5rem 1rem;
@@ -2754,7 +2754,7 @@ input::placeholder{
 }
 
 .book{
-      background-color:#2291e0;
+      background-color:#d81f72;
     margin-right:0rem;
     margin-left:2rem;
     border:none;
@@ -2801,10 +2801,10 @@ input::placeholder{
 
 .domestic-pg-1 .title h2{
     font-size: 1.5rem;
-    color:#2291e0;
+    color:#d81f72;
     margin-top:1rem;
     text-align:center;
-    color:#2291e0;
+    color:#d81f72;
 }
 
 .domestic-pg-1 .title p{
