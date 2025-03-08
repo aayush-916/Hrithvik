@@ -71,25 +71,13 @@
             scroll-behavior: smooth;
         }
         body {
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #1e1e2f, #252545);
-            color: #fff;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            min-height: 100vh;
+            
         }
-        h2 {
-            margin: 20px 0;
-            font-size: 2rem;
-            text-align: center;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            background: linear-gradient(90deg, #ff7eb3, #ff758c);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+        
         .gallery {
             width: 90%;
             max-width: 1200px;
@@ -97,6 +85,7 @@
             flex-wrap: wrap;
             justify-content: center;
             gap: 15px;
+            margin-top: 40px;
         }
         .image-container {
             width: calc(33.333% - 10px);
@@ -138,6 +127,11 @@
                 height: 180px;
             }
         }
+        #my-navigation {
+        width: 100%;
+        position: relative;
+        }
+
     </style>
 </head>
 <body>
@@ -264,12 +258,34 @@
 
     
     <div class="gallery">
-        <div class="image-container"><img src="./sr1.jpg" alt="Image 1"></div>
-        <div class="image-container"><img src="./sr2.jpg" alt="Image 2"></div>
-        <div class="image-container"><img src="./sr3.jpg" alt="Image 3"></div>
-        <div class="image-container"><img src="./sr4.jpg" alt="Image 4"></div>
-        <div class="image-container"><img src="./sr5.jpg" alt="Image 5"></div>
-        <div class="image-container"><img src="./sr6.jpg" alt="Image 6"></div>
+        <div class="image-container"><img src="./new1.jpg" alt="Image 1"></div>
+<div class="image-container"><img src="./new2.jpg" alt="Image 2"></div>
+<div class="image-container"><img src="./new3.jpg" alt="Image 3"></div>
+<div class="image-container"><img src="./new4.jpg" alt="Image 4"></div>
+<div class="image-container"><img src="./new5.jpg" alt="Image 5"></div>
+<div class="image-container"><img src="./new6.jpg" alt="Image 6"></div>
+<div class="image-container"><img src="./new7.jpg" alt="Image 7"></div>
+<div class="image-container"><img src="./new8.jpg" alt="Image 8"></div>
+<div class="image-container"><img src="./new9.jpg" alt="Image 9"></div>
+<div class="image-container"><img src="./new10.jpg" alt="Image 10"></div>
+<div class="image-container"><img src="./new11.jpg" alt="Image 11"></div>
+<div class="image-container"><img src="./new12.jpg" alt="Image 12"></div>
+<div class="image-container"><img src="./new13.jpg" alt="Image 13"></div>
+<div class="image-container"><img src="./new14.jpg" alt="Image 14"></div>
+<div class="image-container"><img src="./new15.jpg" alt="Image 15"></div>
+<div class="image-container"><img src="./new16.jpg" alt="Image 16"></div>
+<div class="image-container"><img src="./new17.jpg" alt="Image 17"></div>
+<div class="image-container"><img src="./new18.jpg" alt="Image 18"></div>
+<div class="image-container"><img src="./new19.jpg" alt="Image 19"></div>
+<div class="image-container"><img src="./new20.jpg" alt="Image 20"></div>
+<div class="image-container"><img src="./new21.jpg" alt="Image 21"></div>
+<div class="image-container"><img src="./new22.jpg" alt="Image 22"></div>
+<div class="image-container"><img src="./new23.jpg" alt="Image 23"></div>
+<div class="image-container"><img src="./new24.jpg" alt="Image 24"></div>
+<div class="image-container"><img src="./new25.jpg" alt="Image 25"></div>
+<div class="image-container"><img src="./new26.jpg" alt="Image 26"></div>
+<div class="image-container"><img src="./new27.jpg" alt="Image 27"></div>
+
     </div>
     <script>
         function revealImages() {
@@ -286,6 +302,56 @@
         
         window.addEventListener('scroll', revealImages);
         window.addEventListener('load', revealImages);
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $('.new-owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        items: 4,
+        responsive: {
+          0: { items: 1 },
+          600: { items: 1 },
+          1000: { items: 1 }
+        }
+      });
+    
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 40,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        items: 3,
+        responsive: {
+          0: {
+            items: 3
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 5
+          }
+        }
+      })
     </script>
 </body>
 </html>
