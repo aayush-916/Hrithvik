@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hrithvik Tours and Travels - About Page</title>
+    <meta name="description"
+      content="Explore Patna and beyond with Hrithvik Tours and Travels. Offering top-notch tour packages, car rentals, and travel services. Book your next adventure today!" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+    <link rel="canonical" href="" />
+    <link rel="short icon" href="" type="image/x-icon">
+    <link rel="icon" href="./favicon.jpg" type="image/icon" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="webpage" />
+    <meta property="og:title" content="Hrithvik Tours and Travels - About Page" />
+    <meta property="og:description"
+      content="Explore Patna and beyond with Hrithvik Tours and Travels. Offering top-notch tour packages, car rentals, and travel services. Book your next adventure today!" />
+    <meta property="og:url" content="/" />
+    <meta property="og:site_name" content="Hrithvik Tours and Travels" />
+    <meta property="og:updated_time" content="2024-02-19T07:33:23+00:00" />
+    <meta property="og:image" content="/img/Untitled%20design%20(89).png" />
+    <meta property="og:image:secure_url" content="/img/Untitled%20design%20(89).png" />
+    <meta property="og:image:width" content="1080" />
+    <meta property="og:image:height" content="1080" />
+    <meta property="og:image:alt" content="Hrithvik Tours and Travels" />
+    <meta property="og:image:type" content="image/png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hrithvik Tours and Travels - Your Patna Travel Expert" />
+    <meta name="twitter:description"
+      content="Explore Patna and beyond with Hrithvik Tours and Travels. Offering top-notch tour packages, car rentals, and travel services. Book your next adventure today!" />
+    <meta name="twitter:image" content="/img/Untitled%20design%20(89).png" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+    <!--Owl carousel CDN-->
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- Font-Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!--CSS CDN-->
+    <link rel="stylesheet" href="Styles.css">
+  
+    <!--Font CDN-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+  
+    <!------AOS Animation------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1e1e2f, #252545);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        h2 {
+            margin: 20px 0;
+            font-size: 2rem;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background: linear-gradient(90deg, #ff7eb3, #ff758c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gallery {
+            width: 90%;
+            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .image-container {
+            width: calc(33.333% - 10px);
+            height: 250px;
+            opacity: 0;
+            transform: scale(0.8);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+            transition: transform 0.5s ease-in-out;
+        }
+        .image-container:hover img {
+            transform: scale(1.1);
+        }
+        .image-container.show {
+            opacity: 1;
+            transform: scale(1);
+        }
+        @media (max-width: 768px) {
+            .image-container {
+                width: calc(50% - 10px);
+                height: 200px;
+            }
+        }
+        @media (max-width: 480px) {
+            .image-container {
+                width: 100%;
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+<body>
+      
+    <!--Navbar starts here-->
+
+  <nav class="navbar navbar-expand-lg" id="my-navigation">
+    <div class="container-fluid first-part">
+      <a class="navbar-brand" href="index.html"><img src="./favicon.jpg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars my-icon"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="package.html">Tour Packages</a>
+          </li>
+        
+          <!--<li class="nav-item">-->
+          <!--  <a class="nav-link" href="package.php" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
+          <!--    TOUR PACKAGES-->
+          <!--  </a>-->
+          <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="myul">-->
+          <!--  <li><a class="dropdown-item" href="domestic.php">DOMESTIC SERVICES</a></li>-->
+          <!--  <li><a class="dropdown-item" href="carrental.php">CAR RENTAL PACKAGES</a></li>-->
+          <!--  <li><a class="dropdown-item" href="inter.php">INTERNATIONAL PACKAGES</a></li>-->
+          <!--</ul>-->
+          <!--</li>-->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="car-rental.html">Car Rental</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Gallery.html">Gallery</a>
+          </li>
+        </ul>
+        <!-- Button trigger modal starts -->
+
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          id="yourbutton">
+          Book Now &nbsp; <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+
+        <!-- Button trigger modal ends -->
+      </div>
+    </div>
+  </nav>
+  <!--Navbar Ends here-->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Book Your Tour Now!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--<div class="errors">-->
+          <!--    <ul class="errorlist">-->
+
+          <!--    </ul>-->
+          <!--</div>-->
+          <form id="contactForm" action="https://formsubmit.co/hrithviktourtravels7870@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Cab Booking Inquiry">
+            
+            <label>Your Name*</label>
+            <input type="text" class="form-control" name="name" id="name" required>
+        
+            <label>Email Address</label>
+            <input type="email" class="form-control" name="email" id="email">
+        
+            <label>Phone*</label>
+            <input type="text" class="form-control" name="phone" id="phone" required>
+        
+            <label>Cab Type</label>
+            <select class="form-select" name="van" id="van">
+                <option selected>Hatchback</option>
+                <option value="Sedan">Sedan</option>
+                <option value="SUV/MUV">SUV/MUV</option>
+            </select>
+        
+            <label>No. of People</label>
+            <select class="form-select" name="people" id="people">
+                <option selected>&lt; 4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+        
+            <label>No. of Luggage</label>
+            <select class="form-select" name="language" id="language">
+                <option selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        
+            <label>How Many Days</label>
+            <input type="number" class="form-control" name="day" id="day">
+        
+            <label>Pickup Location</label>
+            <input type="text" class="form-control" name="location" id="location" required>
+        
+            <label>Destination</label>
+            <input type="text" class="form-control" name="destination" id="Destination" required>
+        
+            <input type="hidden" name="_captcha" value="false"> <!-- Disables captcha -->
+            <input type="hidden" name="_autoresponse" value="Thank you for your inquiry! We will contact you soon.">
+        
+            <input type="submit" value="Submit" id="submitbutton" name="send_inquiry">
+        </form>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    
+    <div class="gallery">
+        <div class="image-container"><img src="./sr1.jpg" alt="Image 1"></div>
+        <div class="image-container"><img src="./sr2.jpg" alt="Image 2"></div>
+        <div class="image-container"><img src="./sr3.jpg" alt="Image 3"></div>
+        <div class="image-container"><img src="./sr4.jpg" alt="Image 4"></div>
+        <div class="image-container"><img src="./sr5.jpg" alt="Image 5"></div>
+        <div class="image-container"><img src="./sr6.jpg" alt="Image 6"></div>
+    </div>
+    <script>
+        function revealImages() {
+            const images = document.querySelectorAll('.image-container');
+            images.forEach(image => {
+                const rect = image.getBoundingClientRect();
+                if (rect.top < window.innerHeight * 0.9 && rect.bottom > 0) {
+                    image.classList.add('show');
+                } else {
+                    image.classList.remove('show');
+                }
+            });
+        }
+        
+        window.addEventListener('scroll', revealImages);
+        window.addEventListener('load', revealImages);
+    </script>
+</body>
+</html>
